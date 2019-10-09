@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    char arrayExample1[] = {'a', 'b' , 'c'}; // Arreglo inicializado tipo int
+    char arrayExample1[] = {'a', 'b' , 'c'}; // Arreglo inicializado tipo char
     string arrayExample2[5]; // Arreglo tipo string sin inicializar con 5 espacios o tamaño de 5
     array<int,6> arrayExample3{}; // otra manera de declarar un arreglo tipo int
     array<float, 3> arrayExample4{1.4, 1.5, 1.6}; // otra manera de declarar un arreglo tipo float
