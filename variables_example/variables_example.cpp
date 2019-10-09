@@ -10,7 +10,7 @@ int main() {
     bool isBool = true || false;
 
     cout << "Types data variables:" << endl;
-    cout << typeid(isInt).name() << " = entero" << endl;
+    cout << typeid(isInt).name() << " = int" << endl;
     cout << typeid(isFloat).name() << " = float" << endl;
     cout << typeid(isChar).name() << " = char" << endl;
     cout << typeid(isBool).name() << " = boolean" << endl;
