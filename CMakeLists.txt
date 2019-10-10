@@ -17,3 +17,6 @@ add_executable(variables ${VARIABLES_FILES}) # se ejecutará el archivo que espe
 
 set(ARRAY_FILES Array_Example/arrays.cpp)
 add_executable(arrays ${ARRAY_FILES})
+
+set(HEADER_FILES header_example/headers.cpp)
+add_executable(headers ${HEADER_FILES})
