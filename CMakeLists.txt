@@ -18,14 +18,18 @@ add_executable(04 ${04}) # se ejecutará el archivo que especificaste arriba.
 set(05 05_Arrays/arrays.cpp)
 add_executable(05 ${05})
 
-set(06 06_Headers/headers.cpp)
+set(06 06_Functions/function_example.cpp)
 add_executable(06 ${06})
 
-set(07 07_InputOfData/inputofdata.cpp)
+set(07 07_Headers/headers.cpp)
 add_executable(07 ${07})
 
-set(08 08_Switch/switch.cpp)
+set(08 08_InputOfData/inputofdata.cpp)
 add_executable(08 ${08})
 
-set(09 09_DoWhile/dowhile.cpp)
+set(09 09_Switch/switch.cpp)
 add_executable(09 ${09})
+
+set(10 10_DoWhile/dowhile.cpp)
+add_executable(10 ${10})
+
