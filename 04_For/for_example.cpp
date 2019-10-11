@@ -6,8 +6,6 @@ int main() {
     // numero de la tabla
     int number = 5;
 
-    // cin>>number; // ingresar numero desde teclado
-
     for (int i = 1; i <=10 ; i++) {
         cout << number << " x " << i << " = " << number*i << endl;
     }
