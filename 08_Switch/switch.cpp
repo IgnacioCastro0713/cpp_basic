@@ -12,7 +12,9 @@ int main() {
     printl("sobre 2 cantidades que escribas");
     printl("Escribe el primer numero: ");
     cin >> a;
-    cout << "Escribe el segundo numero: ";
+
+    printl("Escribe el segundo numero: ");
+
     cin >> b;
 
     printl("Indica el numero de la operación que desees realizar: ");
