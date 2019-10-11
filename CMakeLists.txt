@@ -26,3 +26,6 @@ add_executable(07 ${07})
 
 set(08 08_Switch/switch.cpp)
 add_executable(08 ${08})
+
+set(09 09_DoWhile/dowhile.cpp)
+add_executable(09 ${09})
