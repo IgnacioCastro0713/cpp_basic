@@ -27,10 +27,10 @@ int main() {
     //Intencionalmente se ha omitido el uso de break;
     switch (option) {
         case 1:
-            printl("La suma es: " + to_string( a + b));
+            printl("La suma es: " + to_string(a + b));
             break;
         case 2:
-            printl("La resta es: "    + to_string(a - b));
+            printl("La resta es: " + to_string(a - b));
             break;
         case 3:
             printl("El producto es: " + to_string(a * b));
@@ -39,7 +39,7 @@ int main() {
             printl("La división es: " + to_string(a / b));
             break;
         case 5:
-            printl("El modulo es: "   + to_string(a % b));
+            printl("El modulo es: " + to_string(a % b));
             break;
         default:
             printl("Opcion no valida");
