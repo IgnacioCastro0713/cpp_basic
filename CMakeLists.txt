@@ -36,3 +36,6 @@ add_executable(10 ${10})
 set(11 11_ClassesAndObjects/classandobject_example.cpp)
 add_executable(11 ${11})
 
+set(12 12_Areas/circle_area.cpp)
+add_executable(12 ${12})
+
